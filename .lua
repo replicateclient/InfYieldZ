@@ -19,7 +19,7 @@ if not game:IsLoaded() then
     notLoaded:Destroy()
 end
 
-currentVersion = "0.0.4"
+currentVersion = "26.1"
 
 ScaledHolder = Instance.new("Frame")
 Scale = Instance.new("UIScale")
@@ -13388,10 +13388,10 @@ task.spawn(function()
 	minimizeHolder()
 	if IsOnMobile then notify("Unstable Device", "On mobile, Infinite Yield may have issues or features that are not functioning correctly.") end
 end)
-
+createPopup("Updatelog:\nversion system is year.updnumber (26.1) so like in minecraft\nadded new themes\nset default theme to midnight\nsome QoL changes")
 if os.date("%m %d") == "04 01" then
 	createPopup("boo u scary scary skeleton\nhappy april fools")
-	Title.Text = string.gsub(Title.Text, "Infinite Yield Z", "Fe bipas Skibidi")
+	Title.Text = string.gsub(Title.Text, "Infinite Yield Z", "Inf yield z fe bipas rel!")
 end
 
 applySeasonalTheme()
